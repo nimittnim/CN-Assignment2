@@ -1,4 +1,4 @@
-# README
+# Computer Networks Assignment: 2
 
 ## Overview
 This repository contains Mininet-based network simulations to analyze different TCP congestion control schemes and TCP behavior with various configurations.
@@ -29,7 +29,7 @@ python3 task1.py <option> <congestion_control_scheme>
 - Maximum packet size achieved
 
 ### Task 2
-(*To be added*)
+The jupyter files in the repository were used for Task 2. The q2_part{1,2}.pcap show the network flow for corresponding parts.
 
 ### Task 3: TCP Performance Analysis with Nagle’s Algorithm and Delayed ACK
 This task examines the impact of Nagle’s Algorithm and Delayed ACK on TCP performance by transmitting a 4 KB file at a fixed rate.
@@ -57,4 +57,3 @@ To clean up any previous Mininet instances before running a new test:
 sudo mn -c
 ```
 
-# CN-Assignment2
